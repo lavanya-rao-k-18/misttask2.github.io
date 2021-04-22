@@ -54,7 +54,7 @@ svg:hover > path {
 
  .announcement{
   color: white;
-  font-size: 1.2vw;
+  font-size: 16px;
   padding-top: 10px;
   text-align: center;
   text-decoration-line: underline;
@@ -66,7 +66,7 @@ svg:hover > path {
 .para{
   color: white;
   font-weight: lighter;
-  font-size: 1.2vw;
+  font-size:16px;
   text-align: center;
   padding-top: 14px;
   padding-right: 200px;
@@ -75,7 +75,7 @@ svg:hover > path {
 
 .list ul {
   padding-top: 15px;
-  font-size: 1.2vw;
+  font-size: 16px;
   margin-left: 300px;
   list-style: none;
   color: white;
