@@ -46,7 +46,7 @@ svg:hover > path {
   margin-top: 4%;
     margin-left: 34%;
    max-width: 100;
-    height:auto;
+    
 
 }
 
@@ -100,7 +100,7 @@ a:hover{
 
 
 
-@media only screen and (min-width:420px)
+@media only screen and (max-width:420px)
  {
   
   .rectangle, .image, .list,.announcement, .para {
@@ -117,7 +117,7 @@ a:hover{
 
 
 @media only screen and (min-width: 600px) {
-  /* For tablets: */
+ 
  .rectangle, .image, .list,.announcement, .para {
     width:auto;
   }
@@ -125,7 +125,7 @@ a:hover{
   }
 }
 @media only screen and (min-width: 768px) {
-  /* For desktop: */.rectangle, .image, .list,.announcement, .para {
+ .rectangle, .image, .list,.announcement, .para {
     width:auto;
   }
  
