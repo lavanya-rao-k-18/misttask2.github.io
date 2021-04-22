@@ -1,0 +1,134 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    
+    margin:  0px 0px;
+    box-sizing: border-box;
+}
+.rectangle{
+
+   position:absolute;
+    align-items: center;
+    left: 15%;
+    right: 15%;
+    top: 10%;
+    bottom: 10%;
+    height: 650px;
+    width: 900px;
+    border-radius: 6px;
+     background: #3C4042;
+    font-weight: lighter;
+    
+}
+
+
+svg {
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    margin: 15px 13px;
+}
+svg > circle {
+    stroke: white;
+    fill:#3C4042;
+}
+svg > path {
+    stroke: white;
+}
+svg:hover > circle {
+    fill:black ;
+}
+svg:hover > path {
+    stroke: white;
+}
+
+
+.image{
+  margin-top: 4%;
+    margin-left: 34%;
+   max-width: 100;
+
+}
+
+
+
+ .announcement{
+  color: white;
+  font-size: 1.2vw;
+  padding-top: 10px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color:  #59316B;
+  text-decoration-style: solid ;
+  text-decoration-thickness: 3px;
+  font-weight: lighter;
+}
+.para{
+  color: white;
+  font-weight: lighter;
+  font-size: 1.2vw;
+  text-align: center;
+  padding-top: 14px;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+.list ul {
+  padding-top: 15px;
+  font-size: 1.2vw;
+  margin-left: 300px;
+  list-style: none;
+  color: white;
+  font-weight: 100;
+
+}
+
+ .list li {
+  padding-bottom: 5px;
+
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: black;
+}
+
+
+
+
+@media only screen and (min-width:420px)
+ {
+  
+  .rectangle, .image, .list,.announcement, .para {
+    width:100%;  }
+    .list{ margin-left: 50px;
+      padding: 20px;
+    margin-bottom: 100px;}
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+ .rectangle, .image, .list,.announcement, .para {
+    width:auto;
+  }
+  
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */.rectangle, .image, .list,.announcement, .para {
+    width:auto;
+  }
+ 
+}
+html{
+  height: 100%;
+}
